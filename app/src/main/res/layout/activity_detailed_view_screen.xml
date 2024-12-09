@@ -50,7 +50,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:backgroundTint="#1E88E5"
-        android:text="Day with Highest Expense" />
+        android:text="See Day with Highest Expenses" />
 
     <!-- Back to Main Button -->
 
@@ -67,7 +67,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="186dp" />
+        android:layout_height="41dp" />
 
     <Button
         android:id="@+id/btnBackToMain"
