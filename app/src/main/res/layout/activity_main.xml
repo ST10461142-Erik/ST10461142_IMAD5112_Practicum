@@ -59,25 +59,9 @@
         android:backgroundTint="#1E88E5"
         android:text="Clear" />
 
-    <Button
-        android:id="@+id/btnCalculateAverage"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="#1E88E5"
-        android:text="Calculate Average" />
-
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp" />
-
-    <TextView
-        android:id="@+id/txtAverage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Average Distance: 0 km"
-        android:textSize="20sp" />
 
     <Space
         android:layout_width="match_parent"

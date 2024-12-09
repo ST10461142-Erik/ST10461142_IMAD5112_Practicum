@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SplashScreen" >
+    tools:context=".SplashScreen">
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="136dp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <Space
         android:layout_width="match_parent"
-        android:layout_height="91dp" />
+        android:layout_height="33dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="172dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center_horizontal"
+        tools:srcCompat="@drawable/logo_budget" />
 
     <TextView
         android:id="@+id/textfullName"
