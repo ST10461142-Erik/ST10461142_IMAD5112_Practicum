@@ -5,4 +5,5 @@
     <color name="blue">#0000FF</color> <!-- Standard blue -->
     <color name="light_blue">#1E88E5</color> <!-- Light blue color -->
     <color name="gray">#808080</color> <!-- or use another gray shade -->
+    <color name="beige">#FBF0C0</color>
 </resources>

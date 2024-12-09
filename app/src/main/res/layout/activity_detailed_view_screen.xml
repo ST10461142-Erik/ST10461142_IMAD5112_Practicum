@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
+    android:background="#FBF0C0"
     tools:context=".DetailedViewScreen">
 
     <!-- Details Section -->
@@ -16,10 +17,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Details will appear here"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:visibility="visible" />
 
     <!-- Calculate Average Button -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="73dp" />
+
     <Button
         android:id="@+id/btnCalculateAverage"
         android:layout_width="wrap_content"
@@ -35,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Average Spending: 0 ZAR"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <!-- Highest Spending Day Button -->
     <Button
@@ -49,12 +54,16 @@
 
     <!-- Back to Main Button -->
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
     <TextView
         android:id="@+id/txtHighest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Highest Spending Day"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <Space
         android:layout_width="match_parent"
