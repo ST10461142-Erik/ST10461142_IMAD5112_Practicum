@@ -23,7 +23,7 @@
     <!-- Calculate Average Button -->
     <Space
         android:layout_width="match_parent"
-        android:layout_height="73dp" />
+        android:layout_height="10dp" />
 
     <Button
         android:id="@+id/btnCalculateAverage"

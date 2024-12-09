@@ -52,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="#1E88E5"
+        android:baselineAligned="false"
         android:fontFamily="@font/abril_fatface"
         android:text="Start"
         android:textSize="20sp" />
@@ -62,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="#1E88E5"
+        android:baselineAligned="false"
         android:fontFamily="@font/abril_fatface"
         android:text="Exit"
         android:textSize="20sp" />
